@@ -198,9 +198,9 @@ jobs:
           gsutil cp -r ${{ env.LOGS_DIR }} ${{ matrix.GOOGLE_BUCKET }}
           gsutil cp $HOME/latest-build.txt ${{ matrix.GOOGLE_BUCKET }}
 
-      - name: ResourceCleanup
-        uses: azure/CLI@v1
-        with:
-          azcliversion: latest
-          inlinescript: |
-            az group delete -g ${{ matrix.AZURE_RESOURCE_GROUP }} --yes
+#      - name: ResourceCleanup
+#        uses: azure/CLI@v1
+#        with:
+#          azcliversion: latest
+#          inlinescript: |
+#            az group delete -g ${{ matrix.AZURE_RESOURCE_GROUP }} --yes
