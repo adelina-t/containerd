@@ -10,7 +10,7 @@ on:
 env:
   AZURE_DEFAULT_LOCATION: westeurope
   AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUB_ID }}
-  AZURE_DEFAULT_VM_SIZE: Standard_D8s_v3 
+  AZURE_DEFAULT_VM_SIZE: Standard_D32s_v3 
   PASSWORD: Passw0rdAdmin # temp for testing, will be generated
   DEFAULT_ADMIN_USERNAME: azureuser
   SSH_OPTS: "-o ServerAliveInterval=20 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
