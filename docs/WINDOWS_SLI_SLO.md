@@ -43,6 +43,12 @@ Sample size: 1000 pods, sequential
 | StatusPod | 0.0s | 0.0011s | 0.0033s | | 0.0016s | 0.0011s |
 | StopPod | 0.5978s | 0.6827s | 1.338s | | 0.8035s | 0.6698s |
 | RemovePod | 0.0974s | 0.1172s | 0.5200s | | 0.127s | 0.116s |
+| CreateContainer | 0.0708s | 0.0910s | 0.2973s | | 0.1060s | 0.0856s |
+| StatusContainer | 0.0s | 0.00058s | 0.00219s | | 0.0010s | 0.0005s |
+| StopContainer | 1.9983s | 2.8090s | 3.1359s | | 2.8953s | 2.8342s |
+| RemoveContainer | 0.0178s | 0.0234s | 0.05912s | | 0.02825s | 0.0230s |
+| StartContainer | 2.1134s | 2.2484s | 4.0323s | | 2.5372s | 2.2122s |
+
 
 
 ***
@@ -70,27 +76,31 @@ Sample size: 1000 pods, sequential
 
 ![CreateContainer_WS2019_ols_hcsshim_d32s_v3](https://user-images.githubusercontent.com/7319830/137919377-438ff348-2dda-4277-9911-d20bdc953d13.png)
 ![CreateContainer_WS2019_d32s_v3](https://user-images.githubusercontent.com/7319830/137919379-bf0e3cc9-7129-4be4-871a-aaceb92578a8.png)
+![CreateContainer_WS2022_d32s_v3](https://user-images.githubusercontent.com/7319830/137923397-b4962b7a-32ac-4133-943d-4ce00dbc534b.png)
 
 ### STATUS CONTAINER HCSSHIM  0.9 vs 0.8 ( WS 2019 ) 
 
 ![StatusContainer_WS2019_d32s_v3](https://user-images.githubusercontent.com/7319830/137919462-5494b881-b239-4767-a426-9c9919aeb4c2.png)
 ![StatusContainer_WS2019_ols_hcsshim_d32s_v3](https://user-images.githubusercontent.com/7319830/137919467-8f5987c8-d399-4a75-b731-c3185d9e7173.png)
+![StatusContainer_WS2022_d32s_v3](https://user-images.githubusercontent.com/7319830/137923439-45b46fcd-1d08-40f5-b35d-dbe1c6fec207.png)
 
 ### START CONTAINER  HCSSHIM  0.9 vs 0.8 ( WS 2019 ) 
 
 ![StartContainer_WS2019_ols_hcsshim_d32s_v3](https://user-images.githubusercontent.com/7319830/137919530-2f4dc291-35b7-4447-807a-d9a87721648d.png)
 ![StartContainer_WS2019_d32s_v3](https://user-images.githubusercontent.com/7319830/137919535-548d7318-59fe-4ca3-98a5-88c7d318af14.png)
+![StartContainer_WS2022_d32s_v3](https://user-images.githubusercontent.com/7319830/137923478-93e689f4-d8e4-456a-8c9e-38152567d678.png)
 
 ### STOP CONTAINER  HCSSHIM  0.9 vs 0.8 ( WS 2019 ) 
 
 ![StopContainer_WS2019_ols_hcsshim_d32s_v3](https://user-images.githubusercontent.com/7319830/137919602-008fb937-1738-4fea-8d65-90c50dda1d80.png)
 ![StopContainer_WS2019_d32s_v3](https://user-images.githubusercontent.com/7319830/137919606-1c270637-69ba-45a8-8f86-b3ab1bf49b1f.png)
+![StopContainer_WS2022_d32s_v3](https://user-images.githubusercontent.com/7319830/137923528-b6d8af63-3d0f-4e7e-a085-03df51b7bad2.png)
 
 ### REMOVE CONTAINER  HCSSHIM  0.9 vs 0.8 ( WS 2019 ) 
 
 ![RemoveContainer_WS2019_ols_hcsshim_d32s_v3](https://user-images.githubusercontent.com/7319830/137919670-b0bf7071-fc36-4670-969d-0a8bca8a3f23.png)
 ![RemoveContainer_WS2019_d32s_v3](https://user-images.githubusercontent.com/7319830/137919675-0c53d6ac-0c2c-4333-a540-5688e2c547d7.png)
-
+![RemoveContainer_WS2022_d32s_v3](https://user-images.githubusercontent.com/7319830/137923577-b578df5c-341c-40e9-9aba-f6da17ca47dc.png)
 
 
 
