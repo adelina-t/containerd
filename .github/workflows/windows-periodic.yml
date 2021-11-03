@@ -3,8 +3,6 @@
 name: Windows Periodic Tests
 
 on:
-  schedule:
-  - cron: "0 1 * * *"
   workflow_dispatch:
 
 env:
